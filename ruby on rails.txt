@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>
+            Customer Relationship
+        </title>
+    </head>
+    <body>
+        
+            <form>
+            <fieldset>
+            <legend>Customer</legend><br>    
+            <label>Name</label><br>
+            <input type="text" id="cust_name"><br><br>
+            <label>Phone</label><br>
+            <input type="text" id="cust_phone"><br><br>
+            <label>Email</label><br>
+            <input type="text" id="cust_name"><br><br>
+            <label>Address</label><br>
+            <textarea rows="4" Cols="23" id="cust_Add"></textarea><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Order</legend><br>
+            <label>Order Number</label><br>
+            <input type="text" id="ord_no"><br><br>
+            <label>Date of Order</label><br>
+            <input type="text" id="ord_DOB"><br><br>
+            <label>Order Status</label><br>
+            <input type="text" id="ord_status"><br><br>
+            <label>Bill Address</label><br>
+            <textarea rows="4" Cols="23" id="ord_Add"></textarea><br><br>
+            <label>Shipping Address</label><br>
+            <textarea rows="4" Cols="23" id="ord_SAdd"></textarea><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Product</legend><br>
+            <label>SKU</label><br>
+            <input type="text" id="prod_SKU"><br><br>
+            <label>MRP</label><br>
+            <input type="text" id="prod_MRP"><br><br>
+            <label>Quantity</label><br>
+            <input type="text" id="prod_Quant"><br><br>
+            <label>Discount</label><br>
+            <input type="text" id="prod_Dis"><br><br>
+            <label>Net Price</label><br>
+            <input type="text" id="prod_NetPrice"><br><br>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend><br>
+            <label>Name</label><br>
+            <input type="text" id="Add_Name"><br><br>
+            <label>Phone</label><br>
+            <input type="text" id="Add_Phone"><br><br>
+            <label>Address Line 1</label><br>
+            <input type="text" id="Add_Line1"><br><br>
+            <label>Address Line 2</label><br>
+            <input type="text" id="Add_Line2"><br><br>
+            <label>City</label><br>
+            <input type="text" id="Add_City"><br><br>
+            <label>State</label><br>
+            <input type="text" id="Add_State"><br><br>
+            <label>Country</label><br>
+            <input type="text" id="Add_Country"><br><br>
+            <label>Pin</label><br>
+            <input type="text" id="Add_Pin"><br><br>
+    </fieldset>
+    <br>
+    
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset"><br><br>
+        </form>
+        
+    </body>
+</html>
